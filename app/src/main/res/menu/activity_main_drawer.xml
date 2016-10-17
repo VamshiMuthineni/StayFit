@@ -3,32 +3,46 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/profile"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="My Profile" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/exercise_guide"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Exercise Guide" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:id="@+id/slideshow"
+            android:icon="@drawable/ic_menu_camera"
             android:title="Slideshow" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/workouts"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Workouts" />
+
+        <item
+            android:id="@+id/stretches"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Stretches" />
+        <item
+            android:id="@+id/challanges"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Challanges" />
+        <item
+            android:id="@+id/Nutrition"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Nutrition" />
+
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/ic_menu_camera"
                 android:title="Share" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_menu_camera"
                 android:title="Send" />
         </menu>
     </item>
